@@ -2,7 +2,6 @@
 
 import sys
 import json
-from pprint import pprint
 
 def main():
     state = None
@@ -20,7 +19,7 @@ def main():
         except KeyError:
             state[key] = f(None)
 
-    pprint(json.dumps(state))
+    print(json.dumps(state))
 
 if __name__ == '__main__':
     main()
