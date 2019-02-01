@@ -1,0 +1,4 @@
+{
+    "x": "lambda x: x + 1",
+    "hello": "lambda x: 'world'"
+}
